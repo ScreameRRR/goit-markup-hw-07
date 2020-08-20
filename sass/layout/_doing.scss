@@ -1,0 +1,61 @@
+.flex-container {
+  margin-bottom: 94px;
+}
+
+.title {
+  @extend %sub-title;
+}
+
+.doing-list {
+  padding-left: 0;
+  margin: 0 215px;
+  padding-left: 0;
+  padding-right: 0;
+  margin-top: 0;
+  margin-left: 215px;
+  margin-right: 215px;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.doing-item {
+  width: 370px;
+  height: 294px;
+  position: relative;
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
+}
+
+.doing-img {
+  width: 370px;
+  height: 294px;
+  z-index: -1;
+}
+
+.doing-text {
+  position: absolute;
+  z-index: 1;
+  bottom: 16px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: $white;
+}
+
+.doint-item-container {
+  position: absolute;
+  bottom: 0;
+  justify-content: center;
+  align-items: center;
+  width: 370px;
+  height: 70px;
+  background-color: $doing;
+}

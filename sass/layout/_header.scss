@@ -1,0 +1,99 @@
+/* logo */
+
+.nav-container {
+  display: flex;
+  align-items: center;
+  margin-left: 215px;
+  margin-right: auto;
+  height: 80px;
+  width: 100%;
+}
+
+.logo-blue {
+  @extend %logo-text;
+  color: $blue;
+}
+
+.logo-black {
+  @extend %logo-text;
+  color: $black;
+}
+
+.nav-menu {
+  padding-left: 93px;
+  padding-right: 305px;
+}
+
+.nav-item {
+  @extend %nav-text;
+  color: $black;
+  &:not(:last-child) {
+    padding-right: 50px;
+  }
+  &:hover {
+    color: $blue;
+    transition: $animation;
+  }
+}
+
+.blue-border {
+  position: relative;
+}
+.blue-border::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  background: $blue;
+  border-radius: 2px;
+  display: inline-block;
+  top: 44.5px;
+  left: 0;
+}
+
+.address-list {
+  padding-left: 10px;
+
+  :not(:last-child) {
+    padding-right: 38px;
+  }
+}
+
+.address-item {
+  padding-left: 15px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-contacts {
+  position: relative;
+}
+
+.address-link {
+  @extend %nav-text;
+  color: $grey;
+  &:hover {
+    color: $blue;
+    transition: $animation;
+  }
+}
+
+.nav-icon {
+  position: absolute;
+  height: 24px;
+  width: 16px;
+  fill: currentColor;
+  display: inline-block;
+
+  &.p1 {
+    left: 1px;
+    top: -4px;
+  }
+
+  &.p2 {
+    left: 189px;
+    top: -4px;
+  }
+}

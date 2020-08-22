@@ -679,19 +679,19 @@ summary {
 }
 
 .img1 {
-  background-image: url(/images/sputnik.svg);
+  background-image: url(../images/sputnik.svg);
 }
 
 .img2 {
-  background-image: url(/images/clock.svg);
+  background-image: url(../images/clock.svg);
 }
 
 .img3 {
-  background-image: url(/images/diagram.svg);
+  background-image: url(../images/diagram.svg);
 }
 
 .img4 {
-  background-image: url(/images/astronaut.svg);
+  background-image: url(../images/astronaut.svg);
 }
 
 .benefits-list {

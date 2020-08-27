@@ -5,24 +5,15 @@
 .team-container {
   flex-direction: column;
   flex-wrap: wrap;
-  height: 702px;
-  padding-top: 92px;
-  margin-left: 215px;
-}
-
-.team-h {
-  margin: 0;
-  margin-bottom: 50px;
-  padding: 0;
-  margin-left: 451px;
+  margin-top: 92px;
 }
 
 .team-list {
-  padding-bottom: 94px;
   text-align: center;
   align-items: center;
   margin: 0;
   padding: 0;
+  padding-bottom: 94px;
 }
 
 .team-item {

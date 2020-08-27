@@ -1,12 +1,10 @@
 /* logo */
 
 .nav-container {
-  display: flex;
   align-items: center;
-  margin-left: 215px;
+  margin-left: auto;
   margin-right: auto;
   height: 80px;
-  width: 100%;
 }
 
 .logo-blue {
@@ -60,11 +58,11 @@
 }
 
 .address-item {
-  padding-left: 15px;
+  padding-left: 14.5px;
   display: flex;
   flex-wrap: nowrap;
-  justify-content: center;
-  align-items: center;
+  padding-top: 1px;
+
 }
 
 .nav-contacts {
